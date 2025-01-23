@@ -728,11 +728,12 @@ section,
 }
 
 .about .profile-img img {
-  margin-top: -60px;
+  /* margin-top: -60px;
   margin-left: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 40px; */
   position: relative;
   z-index: 1;
+  object-fit: cover;
 }
 
 .about .content h3 {
